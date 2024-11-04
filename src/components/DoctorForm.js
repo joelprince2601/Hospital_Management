@@ -6,11 +6,24 @@ function DoctorForm() {
     <div className="form-container">
       <h2>Doctor Registration Form</h2>
       <form>
-        <label>First Name:</label>
-        <input type="text" placeholder="Enter First Name" />
+        
 
-        <label>Last Name:</label>
-        <input type="text" placeholder="Enter Last Name" />
+        <label>Doctor Name:</label>
+        <select>
+          <option>Dr. Sarah Patel</option>
+          <option>Dr. Rajesh Kumar</option>
+          <option>Dr. Anjali Mehta</option>
+          <option>Dr. Priya Nair</option>
+          <option>Dr. Arun Verma</option>
+          <option>Dr. Maya Singh</option>
+          <option>Dr. Vikram Reddy</option>
+          <option>Dr. Neha Desai</option>
+          <option>Dr. Aakash Bansal</option>
+          <option>Dr. Kavya Iyer</option>
+        </select>
+
+        <label>Employee ID:</label>
+        <input type="text" placeholder="Enter Employee ID" />
 
         <label>Specialization:</label>
         <select>
@@ -26,10 +39,9 @@ function DoctorForm() {
   <option value="Endocrinology">Endocrinology</option>
 </select>
 
-        <label>Phone:</label>
-        <input type="text" placeholder="Enter Phone Number" />
+        
 
-        <button type="submit" className="submit-btn">Register Doctor</button>
+        <button type="submit" className="submit-btn">Check Appointments</button>
       </form>
     </div>
   );
