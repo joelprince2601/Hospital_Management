@@ -12,6 +12,22 @@ function PatientForm() {
         <label>Last Name:</label>
         <input type="text" placeholder="Enter Last Name" />
 
+        <label>Age:</label>
+        <input type="text" placeholder="Enter Age" />
+
+        <label>Gender:</label>
+        <select>
+          <option>Female</option>
+          <option>Male</option>
+        </select>
+
+
+        <label>Do you have an appointment?:</label>
+        <select>
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+
         <label>Phone:</label>
         <input type="text" placeholder="Enter Phone Number" />
 
