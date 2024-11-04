@@ -17,8 +17,18 @@ function BillingForm() {
         </select>
 
 
+
+
         <label>Amount:</label>
         <input type="text" placeholder="Enter Amount" />
+
+        <label>Do you have insurance?</label>
+        <select>
+          <option>YES</option>
+          <option>NO</option>
+        </select>
+
+        
 
         <label>Payment Method:</label>
         <select>
