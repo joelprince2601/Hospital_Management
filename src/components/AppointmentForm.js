@@ -13,17 +13,20 @@ function AppointmentForm() {
 
         <label>Doctor Name:</label>
         <select>
-          <option>Dr. Sarah Patel</option>
-          <option>Dr. Rajesh Kumar</option>
-          <option>Dr. Anjali Mehta</option>
-          <option>Dr. Priya Nair</option>
-          <option>Dr. Arun Verma</option>
-          <option>Dr. Maya Singh</option>
-          <option>Dr. Vikram Reddy</option>
-          <option>Dr. Neha Desai</option>
-          <option>Dr. Aakash Bansal</option>
-          <option>Dr. Kavya Iyer</option>
+          <option>Dr. Sarah Patel, Cardiology</option>
+          <option>Dr. Rajesh Kumar, Neurology</option>
+          <option>Dr. Anjali Mehta, Dermatology</option>
+          <option>Dr. Priya Nair, Pediatrics</option>
+          <option>Dr. Arun Verma, Orthopedics</option>
+          <option>Dr. Maya Singh, Obstetrics and Gynecology</option>
+          <option>Dr. Vikram Reddy, General Surgery</option>
+          <option>Dr. Neha Desai, Internal Medicine</option>
+          <option>Dr. Aakash Bansal, Psychiatry</option>
+          <option>Dr. Kavya Iyer, Endocrinology</option>
         </select>
+  
+
+
 
         <label>Date:</label>
         <input type="date" />
